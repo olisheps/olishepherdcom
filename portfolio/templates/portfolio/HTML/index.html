@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<!-- ==============================
+    Project:        Metronic "Acecv" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        {% load staticfiles %}
+        <meta charset="utf-8"/>
+        <title>Oli Shepherd</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="Oli Shepherd portfolio site" name="description"/>
+        <meta content="Oli Shepherd" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href= "http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="{% static "vendor/simple-line-icons/css/simple-line-icons.css" %}" rel="stylesheet" type="text/css"/>
+        <link href="{% static "vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet"  type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="{% static "css/animate.css" %}" rel="stylesheet">
+        <link href="{% static "vendor/swiper/css/swiper.min.css" %}" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="{% static "css/layout.min.css" %}" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" src="{% static "img/OliShepherd.png" %}"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <img class="logo-img" src="{% static "img/OliShepherd.png" %}" alt="Oli Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Skills</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div class="promo-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 sm-margin-b-60">
+                        <div class="margin-b-30">
+                            <h1 class="promo-block-title">Oli <br/> Shepherd</h1>
+                            <p class="promo-block-text">Talent-stacking start-up founder</p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="https://facebook.com/olishepherd" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/olithinks" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                            <li><a href="https://youtube.com/keenthemes" class="social-icons"><i class="icon-social-youtube"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/oli-shepherd" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="promo-block-img-wrap">
+                            <img class="promo-block-img img-responsive" src="{% static "img/mockup/Olihome.jpeg" %}" align="Avatar">
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-5 sm-margin-b-60">
+                        <img class="full-width img-responsive" src="{% static "img/500x700/IMG_4180.JPG" %}" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="section-seperator margin-b-50">
+                            <div class="margin-b-50">
+                                <div class="margin-b-30">
+                                    <h2>About Me</h2>
+                                    <p>I'm Oli Shepherd, a start-up co-founder and founder who has brought two systems to market and I'm working on my third. I've been a COO at SaaS companies for a number of years, selling B2G, B2B and B2C and now I'm playing at building software myself to build my skills. My first career was as a surveyor and asset manager.</p>
+                                    <p>I've put my portfolio on here and the links will mainly lead you to my passion project: ProperGander. I'm working on breaking down the media's narratives. I'll be doing critical analysis of the news whilst we build the ProperGander app to get to the truth of the story using AI and Machine Learning.</p>
+                                    <p>I live with my beautiful wife and two crazy little boys in South West Surrey. I'm constantly learning about business, society and, recently, the guitar (you don't want to hear it). To get the blood going I love mountain biking, tennis and skiing.</p>
+                                </div>
+                                <a href="https://olishepherd.com/img/oli-shepherd-cv.pdf" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my CV</a>
+                            </div>
+                        </div>
+
+                        <h2>My Skills</h2>
+                        <!-- Progress Box -->
+                        <div class="progress-box">
+                            <h5>SaaS Start-Up Systems and Processes <span class="color-heading pull-right">99%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="99"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Branding and Marketing <span class="color-heading pull-right">93%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="93"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Sales: B2G, B2B, B2C <span class="color-heading pull-right">95%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="95"></div>
+                            </div>
+                        </div>
+                        <!-- End Progress Box -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+
+        <!-- Experience -->
+        <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <h1>Portfolio</h1>
+                    <div class="row row-space-2 margin-b-4">
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <img class="logo-img" src="{% static "img/logos/ProperGander.png" %}" width="150" alt="ProperGander">
+                                    </br>
+                                </div>
+                                </br>
+                                </br>
+                                <div class="service-info">
+                                    <h3>ProperGander</h3>
+                                    <p class="margin-b-5">I've created ProperGander to help people who read the news to get to the truth of the story using AI and Machine Learning.</p>
+                                </div>
+                                <a href="https://propergander.ap" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                <div class="service-element">
+                                    <img class="logo-img" src="{% static "img/logos/Etoso.png" %}" width="100" alt="ProperGander">
+                                    </br>
+                                </div>
+                                </br>
+                                </br>
+                                <div class="service-info">
+                                    <h3>Etoso</h3>
+                                    <p>I was brought in to redevelop the software, rebrand and commercialise this B2B sustainability report writing software in 2019.</p>
+                                </div>
+                                <a href="https://etoso.io" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 sm-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <img class="logo-img" src="{% static "img/logos/IfH.jpg" %}" width="80" alt="ProperGander">
+                                    </br>
+                                  </br>
+                                </div>
+                                <div class="service-info">
+                                    <h3>ITEMS for Health</h3>
+                                    <p class="margin-b-5">I co-founded this enterprise talent management SaaS platform that we sold into healthcare in three continents.</p>
+                                </div>
+                                <a href="https://itemsforhealth.com" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <img class="logo-img" src="{% static "img/logos/star.png" %}" width="80" alt="ProperGander">
+                                    </br>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Star BMS</h3>
+                                    <p class="margin-b-5">My first chance to run a business was a turnaround in Brisbane that we returned to profitability in 18 months.</p>
+                                </div>
+                                <a href="http://www.starbms.com.au" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Experience -->
+
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>Skill set</h2>
+                        <p>Through a career that has traversed real estate (as a general practice surveyor) and software in industries as diverse as healthcare and sustainability, I've developed a broad skillset.</p>
+                    </div>
+                </div>
+                <!--// end row  -->
+
+                <div class="row">
+                    <!-- Latest Products  -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="{% static "img/970x647/People.png" %}" alt="People Image">
+                            </div>
+                        </div>
+
+                        <p>Managed teams with various skillsets from software development to marketing to sales to operations to HR to finance to property management to building management. Not to mention the contractors.</p>
+
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products  -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="{% static "img/970x647/Process.png" %}" alt="Proceess Image">
+                            </div>
+                        </div>
+
+                        <p>A productive team relies on strong systems to keep everything working. Everyone needs to who does what, how they fit in to the whole, what’s happening where and what they need to do next. I like building those systems.</p>
+
+                    </div>
+                    <!-- End Latest Products  -->
+
+                    <!-- Latest Products  -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="{% static "img/970x647/Tech.png" %}" alt="Tech Image">
+                            </div>
+                        </div>
+
+                        <p>Whether it’s building new products and bringing them to the market or using third party software to make it easier for everyone to do their best work I love making the most of great technology. </p>
+
+                    </div>
+                    <!-- End Latest Products  -->
+                </div>
+                </br>
+             <hr>
+                <!--// end row  -->
+
+                <div class="row">
+                    <!-- Latest Products  -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="{% static "img/970x647/Marketing.png" %}" alt="Marketing Image">
+                            </div>
+                        </div>
+
+                        <p>From branding to online marketing, with successful campaigns in both B2B and B2C. I’ve branded and rebranded several companies and had hands on experience across traditional and digital marketing. </p>
+
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products  -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="{% static "img/970x647/Sales.png" %}" alt="Sales Image">
+                            </div>
+                        </div>
+
+                        <p>Over the last few years, I have developed a deep understanding of B2G, B2B and B2C sales for SaaS software products. The early part of my career was focussed on sales and lettings in the commercial property sector.</p>
+
+                    </div>
+                    <!-- End Latest Products  -->
+
+                    <!-- Latest Products  -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="{% static "img/970x647/Finance.png" %}" alt="Finance Image">
+                            </div>
+                        </div>
+
+                        <p>Have had budget responsibility for three companies and built my own three-year budget and cash flow workbook. I also used it to analyse over 20 companies when working on an acquisition project. </p>
+
+                    </div>
+                    <!-- End Latest Products  -->
+                </div>
+                <!--// end row  -->
+            </div>
+        </div>
+        <!-- End Work -->
+"""
+        <!-- Clients
+        <div class="bg-color-sky-light">
+            <div class="content-lg container">
+                <!-- Swiper Clients
+                <div class="swiper-slider swiper-clients">
+                    <!-- Swiper Wrapper
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
+                        </div>
+                    </div>
+                    <!-- End Swiper Wrapper
+                </div>
+                <!-- End Swiper Clients
+            </div>
+        </div>
+      End Clients -->
+
+        <!-- Promo Banner
+        <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="container-sm content-lg">
+                <h2 class="promo-banner-title">Displaying the Result</h2>
+                <p class="promo-banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            </div>
+        </div>
+        <!-- End Promo Banner -->
+"""
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                           <h2>Contact Me</h2>
+                            <p>If you'd like to know more or think there may be an opportunity for us to work together, then please get in touch - I'm always interested in a conversation:</p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Location</h4>
+                            <a href="http://keenthemes.com/">Surrey, UK</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Phone</h4>
+                            <a href="http://keenthemes.com/">+44 7498 581 894</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Email</h4>
+                            <a href="mailto:#">oli@olishepherd.com</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Web</h4>
+                            <a href="https://olishepherd.com/">olishepherd.com</a>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img src="{% static "img/OliShepherd.png" %}" width="30" alt="OS logo">
+                    </div>
+                    <div class="col-xs-6 text-right sm-text-left">
+                        <p class="margin-b-0"><a class="fweight-700" href="https://olishepherd.com">Oli Shepherd</a> Copyright 2020</p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="{% static "vendor/jquery.min.js" %}" type="text/javascript"></script>
+        <script src="{% static "vendor/jquery-migrate.min.js" %}" type="text/javascript"></script>
+        <script src="{% static "vendor/bootstrap/js/bootstrap.min.js" %}" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="{% static "vendor/jquery.easing.js" %}" type="text/javascript"></script>
+        <script src="{% static "vendor/jquery.back-to-top.js" %}" type="text/javascript"></script>
+        <script src="{% static "vendor/jquery.smooth-scroll.js" %}" type="text/javascript"></script>
+        <script src="{% static "vendor/jquery.wow.min.js" %}" type="text/javascript"></script>
+        <script src="{% static "vendor/jquery.parallax.min.js" %}" type="text/javascript"></script>
+        <script src="{% static "vendor/jquery.appear.js" %}" type="text/javascript"></script>
+        <script src="{% static "vendor/swiper/js/swiper.jquery.min.js" %}" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="{% static "js/layout.min.js" %}" type="text/javascript"></script>
+        <script src="{% static "js/components/progress-bar.min.js" %}" type="text/javascript"></script>
+        <script src="{% static "js/components/swiper.min.js" %}" type="text/javascript"></script>
+        <script src="{% static "js/components/wow.min.js" %}" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
+</html>
