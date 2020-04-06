@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'olishepherdsite',
         'USER': 'postgres',
-        'PASSWORD':'Lib642638!!',
+        'PASSWORD':'Testdb12!',
         'HOST':'localhost',
         'PORT':'5432'
     }
@@ -128,3 +128,8 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
+
+try:
+    from local_settings import *
+except ImportError:
+    pass
